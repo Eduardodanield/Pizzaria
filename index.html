@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1024, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!---META TAG  OG--> 
+<meta property="ag:type" content="website"/>
+<meta property="og:title" content="Pizzaria TT"/>
+<meta property="og:image" content="http://127.0.0.1:5500/assets/Foto%20de%20Eduardo.jpg"/>
+<meta property="og:description" content=" A melhor Pizzaria da região, faça seu pedido!"/>
+<meta property="og:site_name" content=" Pizzaria TT"/>
+
+
+<link rel="stylesheet" href="./styles/output.css" />
+<title>PIZZARIA TT</title>
+</head>
+<body>
+
+<!---HEADER-->
+<header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+    <div class="w-full h-full flex flex-col justify-center items-center">
+    <img
+    src="./assets/Foto de Eduardo.jpg"
+    alt="LOGO PIZZARIA"
+    class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration -200"
+
+    />
+    <h1 class="text-4xl mt-4 mb-2 font-bold text-white">
+    Pizzaria TT
+    </h1>
+
+    <spam class ="text-white font-medium">Rua Dev 10, Campo Grande -MS</spam>
+
+    <div class="bg-green-600 px-4 py-1 rounded-lg mt-5"id="date-spam">
+    <spam classs= "text-white font-medium">Terça á Dom - 18:00 as 01:00</spam>  
+    
+    
+    </div>
+</header>
+    <!---FIM HEADER-->
+
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+    Conheça nosso menu
+    </h2>
+
+<!---Inicio Menu-->
+<div id="menu">
+
+<main class=" grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+<!---Produto item-->
+<div class="flex gap-2">
+    <img
+    src="./assets/1- 4 queijos.png"
+    alt="4 queijos"
+    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+/>
+<div>
+<p class="font-bold">4 queijos</p>
+<p class="text-sm"> Molho, mussarela,catupiry, provolone e orégano.</p>
+
+<div class="flex items-center gap-2 mt-3">
+    <p class="font-bold text-lg">R$ 35.00</p>
+    <button 
+    class="bg-gray-900 px-5 rounded add-to-cart-btn"
+    data-name= "4 queijos"
+    data-price="35.00"
+    >
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+    </div>
+</div>
+
+</div>
+
+<!---Fim Produto item-->
+
+    <!---Produto item-->
+    <div class="flex gap-2">
+    <img
+    src="./assets/2-Alho e Óleo.png"
+    alt="Alho e Óleo"
+    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+/>
+<div>
+<p class="font-bold">Alho e Óleo</p>
+<p class="text-sm"> Molho, muçarela, alho, azeite de oliva e orégano.</p>
+
+<div class="flex items-center gap-2 mt-3">
+    <p class="font-bold text-lg">R$ 35.00</p>
+    <button 
+    class="bg-gray-900 px-5 rounded add-to-cart-btn"
+    data-name= "Alho e Óleo"
+    data-price="35.00"
+    >
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+    </div>
+</div>
+
+</div>
+
+
+<!---Fim Produto item-->
+    <!---Produto item-->
+    <div class="flex gap-2">
+    <img
+    src="./assets/3-atum.png"
+    alt="Atum"
+    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+/>
+<div>
+<p class="font-bold">Atum</p>
+<p class="text-sm"> Molho, Mussarela, Atum, Cebola e Orégano.</p>
+
+<div class="flex items-center gap-2 mt-3">
+    <p class="font-bold text-lg">R$ 35.00</p>
+    <button 
+    class="bg-gray-900 px-5 rounded add-to-cart-btn"
+    data-name= "Atum"
+    data-price="35.00"
+    >
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+    </div>
+</div>
+
+</div>
+
+
+<!---Fim Produto item-->
+
+<!---Produto item-->
+<div class="flex gap-2">
+    <img
+    src="./assets/4-brasileira.png"
+    alt="Brasileira"
+    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+/>
+<div>
+<p class="font-bold">Brasileira</p>
+<p class="text-sm"> Mussarela, champignon, ervilha e calabresa.</p>
+
+<div class="flex items-center gap-2 mt-3">
+    <p class="font-bold text-lg">R$ 35.00</p>
+    <button 
+    class="bg-gray-900 px-5 rounded add-to-cart-btn"
+    data-name= "Brasileira"
+    data-price="35.00"
+    >
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+    </div>
+</div>
+
+</div>
+
+
+<!---Fim Produto item-->
+
+    <!---Produto item-->
+    <div class="flex gap-2">
+        <img
+        src="./assets/5-caipira.png"
+        alt="Caipira"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+    />
+    <div>
+    <p class="font-bold">Caipira</p>
+    <p class="text-sm"> Frango desfiado, milho verde e catupiry.</p>
+
+    <div class="flex items-center gap-2 mt-3">
+        <p class="font-bold text-lg">R$ 35.00</p>
+        <button 
+        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+        data-name= "Caipira"
+        data-price="35.00"
+        >
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+        </button>
+        </div>
+    </div>
+
+</div>
+
+
+    <!---Fim Produto item-->
+
+        <!---Produto item-->
+<div class="flex gap-2">
+    <img
+    src="./assets/6-calabresa.png"
+    alt="Calabresa"
+    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+/>
+<div>
+<p class="font-bold">Calabresa</p>
+<p class="text-sm"> Calabresa fatiada e cebola.</p>
+
+<div class="flex items-center gap-2 mt-3">
+    <p class="font-bold text-lg">R$ 35.00</p>
+    <button 
+    class="bg-gray-900 px-5 rounded add-to-cart-btn"
+    data-name= "Calabresa"
+    data-price="35.00"
+    >
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+    </div>
+</div>
+
+</div>
+
+
+<!---Fim Produto item-->
+
+    <!---Produto item-->
+    <div class="flex gap-2">
+        <img
+        src="./assets/7-Champignon PIzza Crisp.png"
+        alt="Champignon"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+    />
+    <div>
+    <p class="font-bold">Champignon</p>
+    <p class="text-sm"> Champignon, cebola e mussarela.</p>
+
+    <div class="flex items-center gap-2 mt-3">
+        <p class="font-bold text-lg">R$ 40.00</p>
+        <button 
+        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+        data-name= "Champignon"
+        data-price="40.00"
+        >
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+        </button>
+        </div>
+    </div>
+
+</div>
+
+
+<!---Fim Produto item-->
+
+    <!---Produto item-->
+    <div class="flex gap-2">
+        <img
+        src="./assets/8-chocolate M&M.png"
+        alt="Chocolate M&M"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+    />
+    <div>
+    <p class="font-bold">Chocolate M&M</p>
+    <p class="text-sm"> Chocolate e M&M.</p>
+
+    <div class="flex items-center gap-2 mt-3">
+        <p class="font-bold text-lg">R$ 35.00</p>
+        <button 
+        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+        data-name= "Chocolate M&M"
+        data-price="35.00"
+        >
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+        </button>
+        </div>
+    </div>
+
+</div>
+
+
+<!---Fim Produto item-->
+
+
+    <!---Produto item-->
+    <div class="flex gap-2">
+        <img
+        src="./assets/11-escarola.png "
+        alt="Escarola"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+    />
+    <div>
+    <p class="font-bold">Escarola</p>
+    <p class="text-sm"> Escarola, alho frito, champignon e bacon.</p>
+
+    <div class="flex items-center gap-2 mt-3">
+        <p class="font-bold text-lg">R$ 35.00</p>
+        <button 
+        class="bg-gray-900 px-5 rounded add-to-cart-btn  "
+        data-name= "Escarola"
+        data-price="35.00"
+        >
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+        </button>
+        </div>
+    </div>
+
+</div>
+
+
+<!---Fim Produto item-->
+        <!---Produto item-->
+        <div class="flex gap-2">
+        <img
+        src="./assets/13-frango catupiry.png "
+        alt="Frango catupiry"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+    />
+    <div>
+    <p class="font-bold">Frango catupiry</p>
+    <p class="text-sm"> Frango desfiado coberto com catupiry.</p>
+
+    <div class="flex items-center gap-2 mt-3">
+        <p class="font-bold text-lg">R$ 35.00</p>
+        <button 
+        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+        data-name= "Frango catupiry"
+        data-price="35.00"
+        >
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+        </button>
+        </div>
+    </div>
+
+</div>
+
+
+<!---Fim Produto item-->
+    <!---Produto item-->
+    <div class="flex gap-2">
+    <img
+    src="./assets/16-marguerita.png"
+    alt="Marguerita"
+    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+    />
+    <div>
+    <p class="font-bold">Marguerita</p>
+    <p class="text-sm"> Mussarela, manjericão e queijo parmesão.</p>
+
+    <div class="flex items-center gap-2 mt-3">
+    <p class="font-bold text-lg">R$ 35.00</p>
+    <button 
+    class="bg-gray-900 px-5 rounded add-to-cart-btn"
+    data-name= "Marguerita"
+    data-price="35.00"
+    >
+    <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+    </div>
+    </div>
+
+    </div>
+
+
+    <!---Fim Produto item-->       
+            
+    <!---Produto item-->
+    <div class="flex gap-2">
+    <img 
+    src="./assets/15-lombo catupiry.png"
+    alt="lombo catupiry"
+    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+    />
+    <div>
+    <p class="font-bold">Lombo catupiry</p>
+    <p class="text-sm"> Lombo fatiado, cebola e catupiry.</p>
+
+    <div class="flex items-center gap-2 mt-3">
+    <p class="font-bold text-lg">R$ 35.00</p>
+    <button 
+    class="bg-gray-900 px-5 rounded add-to-cart-btn"
+    data-name= "Lombo catupiry"
+    data-price="35.00"
+    >
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+    </div>
+    </div>
+
+    </div>
+
+
+    <!---Fim Produto item-->
+                                              
+    </main>
+    <div class="mx-auto max-w-7xl px-2 my-2">
+        <h2 class="font-bold text-3xl">
+            Bebidas
+            </h2>
+    </div>
+
+    <!---DIV Bebidas-->
+
+    <div class=" grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16"id="menu">
+
+
+    <!---Produto item-->
+    <div class="flex gap-2 w-full">
+        <img
+        src="./assets/10-coca cola 2l.png"
+        alt="Coca-Cola 2L"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+        <p class="font-bold">Coca-cola</p>
+      
+    
+        <div class="flex items-center gap-2 justify-between  mt-3">
+        <p class="font-bold text-lg">R$ 10.00</p>
+        <button 
+        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+        data-name= "Coca-cola"
+        data-price="10.00"
+        >
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+        </button>
+        </div>
+        </div>
+    
+        </div>
+    
+    
+        <!---Fim Produto item-->            
+        <!---Produto item-->
+        <div class="flex gap-2 w-full">
+        <img
+        src="./assets/12-fanta 2l.png"
+        alt="Fanta 2L"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+        <div>
+        <p class="font-bold">Fanta 2L</p>
+      
+    
+        <div class="flex items-center gap-2 justify-between  mt-3">
+        <p class="font-bold text-lg ">R$ 08.00</p>
+        <button 
+        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+        data-name= "Fanta 2L"
+        data-price="08.00"
+        >
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+        </button>
+        </div>
+        </div>
+    
+        </div>
+    
+    
+    <!---Fim DIV Bebidas-->
+
+</div>
+    <!---fim Menu-->
+
+
+<!---modal cart---->
+<div 
+class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
+ id="cart-modal">
+
+    <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+        <h2 class="text-center font-bold text-2xl mb-2"> Meu carrinho</h2>
+
+        <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+        <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+        
+        <!-- Nome do cliente -->
+        <p class="font-bold mt-4">Nome:</p>
+        <input
+            type="text"
+            placeholder="Digite seu nome completo..."
+            id="name"
+            class="w-full border-2 p-1 rounded my-1"
+        />
+        <p class="text-red-500 hidden" id="name-warn">Digite seu nome</p>
+
+        <!-- CPF -->
+        <p class="font-bold mt-4">CPF:</p>
+        <input
+            type="text"
+            placeholder="Digite seu CPF..."
+            id="cpf"
+            class="w-full border-2 p-1 rounded my-1"
+        />
+        <p class="text-red-500 hidden" id="cpf-warn">Digite um CPF válido</p>
+
+        <!-- Número de Telefone -->
+        <p class="font-bold mt-4">Número de telefone:</p>
+        <input
+         type="text"
+         placeholder="(11) 99999-9999"
+          id="phone"
+         class="w-full border-2 p-1 rounded my-1"
+/>
+        <p class="text-red-500 hidden" id="phone-warn">Digite um número de telefone válido</p>
+
+
+        <!-- Endereço de entrega -->
+        <p class="font-bold mt-4">Endereço de entrega:</p>
+        <input
+            type="text"
+            placeholder="Digite seu endereço completo..."
+            id="address"
+            class="w-full border-2 p-1 rounded my-1"
+        />
+        <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo</p>
+
+        <!-- Forma de pagamento -->
+        <p class="font-bold mt-4">Forma de pagamento:</p>
+        <select
+            id="payment"
+            class="w-full border-2 p-1 rounded my-1"
+        >
+            <option value="Pix">Pix</option>
+            <option value="Cartão">Cartão</option>
+            <option value="Dinheiro">Dinheiro</option>
+        </select>
+
+        <div class="flex items-center justify-between mt-5 w-full">
+            <button id="close-modal-btn">Fechar</button>
+            <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button>
+        </div>
+    </div>
+</div>
+
+
+
+<!---fim modal cart---->
+
+    <!---Button cart footer-->
+<footer class="w-full bg-red-500 py-4 fixed bottom-0 z-40 flex items-center justify-center">
+    <button 
+    class=" flex items-center gap-2 text-white font-bold"
+    id="cart-btn"
+    >
+        (<span id="cart-count">0</span>)
+        Veja meu carrinho
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+
+
+</footer>
+
+
+
+
+    <!---fim Button cart footer-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="script.js"></script>:  
+
+</body>
+</html>
+
