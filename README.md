@@ -1,2 +1,2 @@
-# Poojeto 2° Semestre 
+# Projeto 2° Semestre 
 loja virtual Pizzaria 
