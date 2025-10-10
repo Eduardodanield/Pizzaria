@@ -14,7 +14,7 @@ Você pode **copiar e colar diretamente no GitHub** — já está todo formatado
 
 # Pizzaria TT 
 
-A **Pizzaria Pi**, referida como **Pizzaria TT** no Front-end, é uma empresa de pequeno porte fundada em março de 2024.
+A **Pizzaria Pi**, referida como **Pizzaria TT**, é uma empresa de pequeno porte fundada em março de 2024.
 Este projeto representa um sistema **Full Stack completo**, desenvolvido para aprimorar a experiência do cliente com um **cardápio interativo**, **sistema de rastreio de pedidos** e **comunicação otimizada**.
 
 ---
