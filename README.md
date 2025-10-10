@@ -1,8 +1,9 @@
+<div align="center">
+  <h1>🍕 Pizzaria TT — Seu Pedido Online em Minutos!</h1>
+  <img src="assets/Logo_Pizzaria.jpg" alt="Logo da Pizzeria com símbolo Pi" width="250px" style="border-radius: 50%;">
+</div>
 
-# 🍕 **Pizzaria TT — Seu Pedido Online em Minutos!**
 
-![Banner da Pizzaria TT](https://i.imgur.com/yw1a1U9.png)
-*Sistema de pedidos online desenvolvido como projeto acadêmico.*
 
 ---
 
