@@ -3,13 +3,6 @@
   <img src="assets/Logo_Pizzaria.jpg" alt="Logo da Pizzeria com símbolo Pi" width="250px" style="border-radius: 50%;">
 </div>
 
-
----
-Excelente, Eduardo!
-Abaixo está o **README completo, unificado e revisado**, com tudo o que você enviou e o que criamos juntos — incluindo a **nova seção de Tecnologias Utilizadas** e o **Fluxograma de Tecnologias e Integrações (PlantUML)**.
-
-Você pode **copiar e colar diretamente no GitHub** — já está todo formatado em Markdown e pronto para uso.
-
 ---
 
 # Pizzaria TT 
